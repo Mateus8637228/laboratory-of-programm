@@ -20,12 +20,17 @@ int main() {
   cout << "mu = "; cin >> mu;
   cout << "g = "; cin >> g;
 
-  double f = PI * d * d / 4.0;
-  double F0 = a * a;
-  double F = (a - 2.0 * delta) * (a - 2.0 * delta);
+  double f
+  f = PI * d * d / 4.0;
+  double F0
+  F0 = a * a;
+  double F
+  F = (a - 2.0 * delta) * (a - 2.0 * delta);
 
-  double K = sqrt(h0 - delta) - sqrt(h - delta - (h - h0) * (F0 / F));
-  double t = (2.0 * K) / (mu * f * sqrt(2.0 * g)) * (F0 * F) / (F0 - F);
+  double K
+  K = sqrt(h0 - delta) - sqrt(h - delta - (h - h0) * (F0 / F));
+  double t
+  t = (2.0 * K) / (mu * f * sqrt(2.0 * g)) * (F0 * F) / (F0 - F);
 
   cout << "t = " << t << endl;
 
