@@ -12,13 +12,26 @@ int main() {
   
   double a, h, d, delta, h0, mu, g, f, F0, F, K, t;
   
-  cout << "a = "; cin >> a;
-  cout << "h = "; cin >> h;
-  cout << "d = "; cin >> d;
-  cout << "delta = "; cin >> delta;
-  cout << "h0 = "; cin >> h0;
-  cout << "mu = "; cin >> mu;
-  cout << "g = "; cin >> g;
+  cout << "a = ";
+  cin >> a;
+
+  cout << "h = ";
+  cin >> h;
+
+  cout << "d = ";
+  cin >> d;
+
+  cout << "delta = ";
+  cin >> delta;
+
+  cout << "h0 = ";
+  cin >> h0;
+
+  cout << "mu = ";
+  cin >> mu;
+
+  cout << "g = "; 
+  cin >> g;
 
   f = PI * d * d / 4.0;
   F0 = a * a;
